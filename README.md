@@ -2,4 +2,4 @@
 Practice w/ web developement
 
 In progress:
-Projects from Colt Steel Web developement course
+Projects from Colt Steele Web developement course
