@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+div{
+    margin: 10%;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.t1 th, .t1 td {
+    padding: 15px;
+  }
+
+
+.t2 td, .t2 th {
+    border-spacing: 15%;
+    padding: 25px;
+    margin: 10px;
+}
+
+.t3 td{
+    padding: 20px 200px 20px 20px;
+    text-align: left;
+}
+
+#pictureCell{
+    background-image: url("Picasso.jpg");
+    text-align: left;
+}
+
+.t3 p{
+    padding: 0;
+    margin:0;
+}
