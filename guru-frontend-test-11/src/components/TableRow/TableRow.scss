@@ -1,0 +1,53 @@
+tr:nth-child(even) {
+  background-color: #f2f2f2;}
+
+td{ 
+  margin: 0;
+  border-left: #bab0bf.25px solid;
+  border-bottom: #bab0bf.25px solid;
+  height: 50px;
+  min-width: 75px;
+}
+
+button{
+  min-width: 62px;
+  border-radius: 2px;
+  margin:0 auto;
+  width: 75%;
+  display: block;
+  padding: 4px;
+}
+
+.clicked{
+  background-color: #2862ff; 
+  color: #ffffff;
+  border-color: #2862ff; 
+}
+
+.notClicked{
+  background-color: #ffffff; 
+  color: #2862ff;
+  border-color: #2862ff; 
+}
+
+.more{
+  background-color: #b4d3fb;
+  border-bottom: none;
+  text-align: center;
+}
+
+.arrow{
+  display: none;
+}
+
+.notMore{
+  padding-left: 10px;
+}
+
+#longlat{
+  background-color: #b4d3fb;
+  text-align: center;
+  color: #2862ff;
+  border: none;
+  font-weight: 800;
+}

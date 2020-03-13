@@ -1,0 +1,18 @@
+thead th{
+  background-color: #00cc99;
+  color: white;
+  height: 50px;
+  border-left: white .5px solid; 
+  border-bottom: white .5px solid; 
+  text-align: left;
+  padding-left: 10px; 
+  
+}
+
+thead th:first-child {
+  border-radius: 5px 0 0 0;
+  border-left: none;
+}
+  thead th:last-child {
+  border-radius: 0 5px 0 0;
+}
