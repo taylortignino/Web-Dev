@@ -1,0 +1,35 @@
+<div class="center">
+
+    <div *ngIf="input">
+        <h1>Matrix</h1>
+
+        <div class="row" *ngFor="let row of newMatrix">
+            <div class="col" *ngFor="let col of row">
+                <div class="boxes">{{col}}</div>
+            </div>
+        </div>
+
+        <h1>Transpose</h1>
+
+        <div class="row" *ngFor="let row of newTranspose">
+            <div class="col" *ngFor="let col of row">
+                <div class="boxes">{{col}}</div>
+            </div>
+        </div>
+
+        <div *ngIf="square">
+            <h1>Square</h1>
+            <div class="row" *ngFor="let row of newSquare">
+                <div class="col" *ngFor="let col of row">
+                    <div class="boxes">{{col}}</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="btn btn-primary" (click)="submit()">Make a new Matrix!</button>
+
+</div>
+
